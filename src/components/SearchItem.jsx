@@ -1,13 +1,11 @@
 import React from "react";
 import "./SearchItem.css";
+import searchItemImg from "../pics/searchItem-img.jpg";
+
 const SearchItem = () => {
   return (
     <div className="searchItem">
-      <img
-        src="https://cf.bstatic.com/xdata/images/hotel/square600/261707778.webp?k=fa6b6128468ec15e81f7d076b6f2473fa3a80c255582f155cae35f9edbffdd78&o=&s=1"
-        alt=""
-        className="siImg"
-      />
+      <img src={searchItemImg} alt="searchItem-img" className="siImg" />
 
       <div className="siDesc">
         <h1 className="siTitle">Tower Street Apartments</h1>
